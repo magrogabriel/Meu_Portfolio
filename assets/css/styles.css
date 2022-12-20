@@ -23,7 +23,7 @@ body {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-between;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -1219,6 +1219,10 @@ footer p a {
 }
 
 @media (max-width: 520px) {
+
+    #nav {
+        margin-right: 35px;
+    }
     .title-topcontainer h1 {
         font-size: 48px;
 
@@ -1239,6 +1243,31 @@ footer p a {
         font-size: 15px;  
     }
 
+    #about {
+        padding-bottom: 80px;
+    }
+    .about-container {
+        padding-top: 60px;
+    }
+
+    .about1 h2 {
+        padding-bottom: 25px;
+    }
+
+    #skills {
+        padding: 60px 0 80px 0;
+    }
+
+    .skills-title {
+        padding-left: 0;
+    }
+
+    .skills-title p {
+        text-align: center;
+        width: 100%;
+        padding: 0 40px;
+    }
+
     .skills-top {
         text-align: center;
     
@@ -1249,9 +1278,17 @@ footer p a {
 
     }
 
+    .projects-content {
+        padding: 60px 0 80px 0;
+    }
+
     .projects-desc {
         padding-left: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    .projects-desc h1 {
+        margin-bottom: 0px;
     }
 
     .projects-desc p {
@@ -1261,9 +1298,17 @@ footer p a {
     .swiper {
         width: 70%;
     }
+
+    #contact {
+        padding: 60px 0 60px 0;
+    }
     
     .contact-content {
         width: 80%;
+    }
+
+    .contact-content h2 {
+        font-size: 43px;
     }
     .contact-content img {
         position: relative;
@@ -1332,7 +1377,7 @@ footer p a {
 
     .contact-box {
 
-        width: 50%;
+        width: 200px;
         
     }
 
