@@ -63,36 +63,21 @@ for (let i = 0; i < linkMenu.length; i++) {
 };
 
 
-
-
 // ANIMATIONS
-const target = document.querySelectorAll('[data-anime]');
-const target1 = document.querySelectorAll('[data-anime1]');
-const target2 = document.querySelectorAll('[data-anime2]');
-const target3 = document.querySelectorAll('[data-anime3]');
-const target4 = document.querySelectorAll('[data-anime4]');
-const target5 = document.querySelectorAll('[data-anime5]');
-const target6 = document.querySelectorAll('[data-anime6]');
 
 window.sr = ScrollReveal({reset: true});
 
-sr.reveal('.hidden1', {duration: 1000, reset: false, });
-sr.reveal('.hidden1-left', {duration: 1000, reset: false, distance: '150px', origin: 'left'});
-sr.reveal('.hidden1-right', {duration: 1000, reset: false, distance: '150px', origin: 'right'});
-sr.reveal('.hidden2-left', {duration: 1000, delay: 400, reset: false, distance: '150px', origin: 'left'})
-sr.reveal('.hidden2-right', {duration: 1000, delay: 400, reset: false, distance: '150px', origin: 'right'})
+sr.reveal('.hidden1', {duration: 1000, reset: false });
+sr.reveal('.hidden2-bottom', {duration: 1000, delay: 400, reset: false, distance: '150px', origin: 'bottom'})
 sr.reveal('.hidden2', {duration: 1000, delay: 400, reset: false})
-sr.reveal('.hidden3', {duration: 1000, delay: 1000, reset: false})
-sr.reveal('.hidden3-right', {duration: 1000, delay: 1000, distance: '100px', origin: 'right', reset: false})
-sr.reveal('.hidden3-left', {duration: 1000, delay: 1000, distance: '100px', origin: 'left', reset: false})
-sr.reveal('.hidden3-bottom', {duration: 1000, delay: 600, distance: '100px', origin: 'bottom', reset: false})
-sr.reveal('.hidden4-bottom', {duration: 1000, delay: 900, distance: '100px', origin: 'bottom', reset: false})
-sr.reveal('.hidden4', {duration: 1000, delay: 1000, reset: false})
-sr.reveal('.hidden5-bottom', {duration: 1000, delay: 1200, distance: '100px', origin: 'bottom', reset: false})
-sr.reveal('.hidden6-bottom', {duration: 1000, delay: 1500, distance: '100px', origin: 'bottom', reset: false})
-sr.reveal('.hidden7-bottom', {duration: 1000, delay: 1800, distance: '100px', origin: 'bottom', reset: false})
-sr.reveal('.hidden8-bottom', {duration: 1000, delay: 2100, distance: '100px', origin: 'bottom', reset: false})
-sr.reveal('.hidden4', {duration: 1000, delay: 800, reset: false})
+sr.reveal('.hidden3', {duration: 1000, delay: 800, reset: false})
+sr.reveal('.hidden3-bottom', {duration: 1000, delay: 800, distance: '150px', origin: 'bottom', reset: false})
+sr.reveal('.hidden4-bottom', {duration: 1000, delay: 1200, distance: '150px', origin: 'bottom', reset: false})
+sr.reveal('.hidden4', {duration: 1000, delay: 1200, reset: false})
+sr.reveal('.hidden5-bottom', {duration: 1000, delay: 1600, distance: '100px', origin: 'bottom', reset: false})
+sr.reveal('.hidden6-bottom', {duration: 1000, delay: 2000, distance: '100px', origin: 'bottom', reset: false})
+sr.reveal('.hidden7-bottom', {duration: 1000, delay: 2400, distance: '100px', origin: 'bottom', reset: false})
+sr.reveal('.hidden8-bottom', {duration: 1000, delay: 2800, distance: '100px', origin: 'bottom', reset: false})
 
 
 // EVENTS CONTACT
@@ -137,6 +122,29 @@ function notHoverLinks(target) {
 }
 
 
-let navBar = document.querySelector("#header");
 
-window.addEventListener('scroll')
+// RETURN BUTTON
+
+const returnBtn = document.querySelector("#return a");
+const descTop = document.querySelector(".title-topcontainer p");
+
+window.addEventListener('scroll', () => {
+    console.log("window.pageYOffset = " + window.pageYOffset)
+    console.log(descTop.offsetTop)
+    if (window.pageYOffset > descTop.offsetTop) {
+        returnBtn.classList.add("active");
+    } else {
+        returnBtn.classList.remove("active");
+    }
+});
+
+returnBtn.addEventListener("mouseover", () => {
+    returnBtn.style.opacity = "1";
+})
+returnBtn.addEventListener("mouseout", () => {
+    returnBtn.style.opacity = ".5";
+})
+
+returnBtn.addEventListener("mouseup", () => {
+    returnBtn.style.opacity = ".5";
+})
