@@ -349,7 +349,6 @@ body {
     padding: 20px;
     transition: 0.5s;
     background-color: #fff;
-    cursor: pointer;
 }
 .card:hover{
     box-shadow: 10px 9px 20px -7px rgba(0,0,0,0.65);
