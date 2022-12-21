@@ -24,7 +24,7 @@ body {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -32,10 +32,6 @@ body {
     color: #324b4e;
 }
 
-#logo {
-    text-decoration: none;
-    color: #324b4e;
-}
 
 #btn-mobile {
     display: none;
@@ -48,8 +44,8 @@ body {
     gap: 50px;
     text-decoration: none;
     list-style: none;
-    margin-right: 50px;
 }
+
 
 #menu li a {
     padding: 10px;
@@ -818,7 +814,8 @@ footer p a {
 }
 
 @media (max-width: 950px) {
-    #nav {
+    #header {
+        justify-content: end;
     }
 
     #menu {
@@ -835,6 +832,10 @@ footer p a {
         overflow-y: auto;
         padding-top: 50px;
         color: #324b4e;
+    }
+
+    #nav {
+        margin-right: 40px;
     }
 
     #nav.active #menu {
