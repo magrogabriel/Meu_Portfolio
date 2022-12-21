@@ -24,13 +24,18 @@ body {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     background-color: #95b0b4;
     color: #324b4e;
 }
+
+#logo {
+    width: 50px;
+}
+
 
 
 #btn-mobile {
@@ -814,7 +819,7 @@ footer p a {
 
 @media (max-width: 950px) {
     #header {
-        justify-content: end;
+        justify-content: space-around;
     }
 
     #menu {
@@ -834,7 +839,7 @@ footer p a {
     }
 
     #nav {
-        margin-right: 40px;
+        /* margin-right: 40px; */
     }
 
     #nav.active #menu {
@@ -1245,14 +1250,24 @@ footer p a {
 
 @media (max-width: 520px) {
 
+    #header {
+        gap: 100px;
+    }
+
+
     #return {
 
         right: 0;
         bottom: 0;
 
     }
+
+    #logo {
+        width: 40px;
+    }
+
     #nav {
-        margin-right: 35px;
+        /* margin-right: 35px; */
     }
     .title-topcontainer h1 {
         font-size: 48px;
