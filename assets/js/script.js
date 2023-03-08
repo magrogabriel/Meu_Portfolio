@@ -78,6 +78,8 @@ sr.reveal('.hidden5-bottom', {duration: 1000, delay: 1600, distance: '100px', or
 sr.reveal('.hidden6-bottom', {duration: 1000, delay: 2000, distance: '100px', origin: 'bottom', reset: false})
 sr.reveal('.hidden7-bottom', {duration: 1000, delay: 2400, distance: '100px', origin: 'bottom', reset: false})
 sr.reveal('.hidden8-bottom', {duration: 1000, delay: 2800, distance: '100px', origin: 'bottom', reset: false})
+sr.reveal('.hidden9-bottom', {duration: 1000, delay: 3200, distance: '100px', origin: 'bottom', reset: false})
+sr.reveal('.hidden10-bottom', {duration: 1000, delay: 3600, distance: '100px', origin: 'bottom', reset: false})
 
 
 // EVENTS CONTACT
@@ -126,7 +128,7 @@ function notHoverLinks(target) {
 // RETURN BUTTON
 
 const returnBtn = document.querySelector("#return a");
-const descTop = document.querySelector(".title-topcontainer p");
+const descTop = document.querySelector(".top-links");
 
 window.addEventListener('scroll', () => {
     console.log("window.pageYOffset = " + window.pageYOffset)

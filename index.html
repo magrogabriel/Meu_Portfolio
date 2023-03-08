@@ -1,94 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Portfólio idealizado e criado para melhor me descrever, assim como minhas habilidades em programação e trabalhos que já desenvolvi a partir de diversas tecnologias FullStack. Nele você encontra também meios de me contatar.">
+    <meta name="description"
+        content="Portfólio idealizado e criado para melhor me descrever, assim como minhas habilidades em programação e trabalhos que já desenvolvi a partir de diversas tecnologias FullStack. Nele você encontra também meios de me contatar.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="./assets/img/Favicon-4.svg">
-    <link rel="icon" href="./assets/img/Favicon-4.svg">
-    <link rel="apple-touch-icon" href="./assets/img/Favicon-4.svg">
-    <link rel="apple-touch-icon-precomposed" href="./assets/img/Favicon-4.svg">
+    <link rel="shortcut icon" href="./assets/img/logo.svg">
+    <link rel="icon" href="./assets/img/logo.svg">
+    <link rel="apple-touch-icon" href="./assets/img/logo.svg">
+    <link rel="apple-touch-icon-precomposed" href="./assets/img/logo.svg">
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <title>Gabriel M. - Portfólio</title>
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
-    <header id="header">
-        <div id="logo">
-            <a href="#header"><img src="./assets/img/Favicon-4.svg" alt=""></a>
+    <div id="bgzao">
+        <header id="header">
+            <div id="logo">
+                <a href="#header"><img src="./assets/img/lettering.svg" alt="Logo do site"></a>
+            </div>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-has-popup="true" aria-controls="menu"
+                    aria-expanded="false">
+
+                    <span id="hamburguer"></span>
+                </button>
+
+                <ul id="menu" role="menu">
+                    <li>
+                        <a href="#top">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Fale comigo</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="return">
+            <a href="#header"><i class="bi bi-file-arrow-up-fill"></i></a>
         </div>
-        <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-has-popup="true" aria-controls="menu" aria-expanded="false">
 
-                <span id="hamburguer"></span>
-            </button>
-
-            <ul id="menu" role="menu">
-                <li>
-                    <a href="#top">Home</a>
-                </li>
-                <li>
-                    <a href="#about">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="#skills">Habilidades</a>
-                </li>
-                <li>
-                    <a href="#projects">Projetos</a>
-                </li>
-                <li>
-                    <a href="#contact">Fale comigo</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <div id="return">
-        <a href="#header"><i class="bi bi-file-arrow-up-fill"></i></a>
-    </div>
-
-    <section id="top">
-        <div class="top-container">
-            <div class="title-topcontainer">
-                <img src="./assets/img/seta1.png" class="absolute imgtop-seta" alt="Imagem de seta decorativa">
+        <section id="top">
+            <div class="top-container">
                 <h1 data-anime="left" class="hidden1">Olá, seja bem-vindo(a) ao meu portfólio</h1>
-                <p data-anime="right" class="hidden2">Esse espaço foi pensado e construído inteiramente por mim, desde sua estrutura, estilização e design. Aqui você poderá conhecer mais sobre mim, as habilidades que possuo até o momento e os projetos que já produzi.</p>
+                <p data-anime="right" class="hidden2">Esse espaço foi pensado e construído inteiramente por mim, desde
+                    sua estrutura, estilização e design. Aqui você poderá conhecer mais sobre mim, as habilidades que
+                    possuo até o momento e os projetos que já produzi.</p>
                 <div class="top-links hidden3-bottom">
-                    <a href="https://www.linkedin.com/in/gabriel-magro/" target="_blank"><i class="bi bi-linkedin"></i>  LinkedIn</a>
-                    <a href="https://github.com/magrogabriel" data-anime2="bottom" target="_blank"><i class="bi bi-github"></i>   GitHub</a>
+                    <a href="https://www.linkedin.com/in/gabriel-magro/" target="_blank"><i class="bi bi-linkedin"></i>
+                        LinkedIn</a>
+                    <a href="https://github.com/magrogabriel" data-anime2="bottom" target="_blank"><i
+                            class="bi bi-github"></i> GitHub</a>
                 </div>
             </div>
-            <div class="img-topcontainer">
-                <img id="me-topcontainer"src="./assets/img/me-topcontainer.png" data-anime="bottom" class="imgtop-ilust hidden2" alt="Ilustração minha">
-                <img src="./assets/img/risco2.png"  class="absolute imgtop-risco" id = "risco1-bg" alt="Imagem de risco decorativoa">
-         </div>
+            <div class="top-bg">
+                <img src="./assets/img/BG_WAVY2.svg" alt="Imagem de background">
             </div>
-        </div>
+    </div>
 
     </section>
+    </div>
+
 
     <section id="about">
         <div class="about-container">
-            <div class="about1">
-                <h2 class="hidden1">Sobre mim</h2>
+            <div class="about-pic">
+                <img src="./assets/img/profile_pic.png" class="foto_perfil" alt="Minha foto de perfil">
             </div>
-            <div class="about2">
-                <img src="./assets/img/eu_about.png"  class="foto_perfil" alt="Minha foto de perfil">
-                <!-- <img src="./assets/img/circulos2.png" class="circulos2_bg" alt="Asset background">
-                <img src="./assets/img/riscos_roxo.png" class="riscos_bg" alt="Asset background"> -->
-            </div>
-            <div class="about3">
-                <h2 data-anime="right" class="hidden2-bottom">Oi, me chamo <span class="hidden3-bottom">Gabriel</span></h2>
-                <p class="hidden4-bottom">Tenho 28 anos e moro no Rio de Janeiro, RJ. Sou formado em Biologia (não atuando) e estou cursando Análise e Desenvolvimento de Sistemas (remoto). <br>Como não estou trabalhando, dedico integralmente meu tempo para estudar e me desenvolver em programação.<br><br>Estou a procura da minha primeira oportunidade profissional na área.</p>
+            <div class="about-desc">
+                <h2 data-anime="right" class="hidden2">Sobre mim</span>
+                </h2>
+                <p class="hidden3">Me chamo Gabriel, tenho 28 anos e moro no Rio de Janeiro, RJ. Sou formado em Biologia (não
+                    atuando) e estou cursando Análise e Desenvolvimento de Sistemas (remoto). <br>Sempre fui apaixonado por tecnologia e, por isso, decidi me dedicar e estudar programação através da graduação, cursos livres, video-aulas e projetos pessoais. <br><br>Estou a procura da minha primeira oportunidade profissional na área.</p>
             </div>
         </div>
 
@@ -99,40 +103,51 @@
         <div class="skills-top">
             <div class="skills-title hidden1">
                 <h1>Habilidades</h1>
-                <p class="skills-desc">Atualmente tenho estudado para conhecer de maneira mais ampla os diversos campos da profissão. Apesar disso, possuo um foco maior em me aperfeiçoar como Desenvolvedor Full Stack, estudando tecnologias como HTML, CSS, JavaScript, Node.Js, ReactJs e SQL.</p>
+                <p class="skills-desc">Atualmente tenho estudado para conhecer de maneira mais ampla os diversos campos
+                    da profissão. Apesar disso, possuo um foco maior em me aperfeiçoar como Desenvolvedor Full Stack,
+                    estudando tecnologias como HTML, CSS, JavaScript, ReactJs, Node.Js, MongoDB e outros frameworks e bibiliotecas.</p>
             </div>
+            
             <div class="skills-img hidden2">
-                <img src="./assets/img/vetor-ilust.svg" alt="Ilustração homem sentado">
+                <img src="./assets/img/elemento1.svg" alt="Ilustração programação">
             </div>
         </div>
 
         <div class="cards-box">
-            <div class="card hidden3-bottom">
-                <img src="./assets/img/html-img.png" alt="Ícone HTML">
+            <div class="card card1 hidden3-bottom">
+                <img src="./assets/img/1_HTML.svg" alt="Ícone HTML">
                 <p>HTML</p>
             </div>
-            <div class="card hidden4-bottom">
-                <img src="./assets/img/css-img.png" alt="Ícone CSS">
+            <div class="card card2 hidden4-bottom">
+                <img src="./assets/img/2_CSS.svg" alt="Ícone CSS">
                 <p>CSS</p>
             </div>
-            <div class="card hidden5-bottom">
-                <img src="./assets/img/js-img.png" alt="Ícone JavaScript">
+            <div class="card card3 hidden5-bottom">
+                <img src="./assets/img/3_JS.svg" alt="Ícone JavaScript">
                 <p>JavaScript</p>
             </div>
-            <div class="card hidden6-bottom">
-                <img src="./assets/img/react-img.png" alt="Ícone ReactJs">
+            <div class="card card4 hidden6-bottom">
+                <img src="./assets/img/4_REACT.svg" alt="Ícone ReactJs">
                 <p>React</p>
             </div>
-            <div class="card hidden7-bottom">
-                <img src="./assets/img/node-img.png" alt="Ícone NodeJs">
+            <div class="card card5 hidden7-bottom">
+                <img src="./assets/img/5_NODE.svg" alt="Ícone NodeJs">
                 <p>NodeJs</p>
             </div>
-            <div class="card hidden8-bottom">
-                <img src="./assets/img/git-img.png" alt="Ícone Git">
+            <div class="card card6 hidden8-bottom">
+                <img src="./assets/img/6_MONGO.svg" alt="Ícone Mongo">
+                <p>MongoDB</p>
+            </div>
+            <div class="card card7 hidden9-bottom">
+                <img src="./assets/img/7_SASS.svg" alt="Ícone Sass">
+                <p>Sass</p>
+            </div>
+            <div class="card card8 hidden10-bottom">
+                <img src="./assets/img/8_GIT.svg" alt="Ícone Git">
                 <p>Git</p>
             </div>
         </div>
-        
+
     </section>
 
     <section id="projects" class="overlay">
@@ -140,108 +155,110 @@
             <div class="projects-desc hidden1">
                 <h1>Projetos</h1>
             </div>
-            <div class="slide-container hidden2">
-                <div class="swiper">
-                    <div class="slide-content">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="img-cardbox">
-                                    <div class="card-img">
-                                        <img src="./assets/img/jogovelha-img.png" alt="Imagem do projeto Jogo da velha">
-                                    </div>
-                                </div>
-                                <div class="desc-cardbox">
-                                    <div class="desc-cardbox">
-                                        <h2>Jogo da Velha</h2>
-                                        <div class="border-transparent"></div>
-                                        <p>Projeto onde foram utilizadas as tecnologias HTML, CSS e JavaScript.</p>
-                                        <a class="btn-swiper" href="https://github.com/magrogabriel/Jogo-da-Velha">Saiba mais</a>
-                                        <a class="link-live" href="https://magrogabriel.github.io/Jogo-da-Velha/"><i class="bi bi-link"></i> Live Preview</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img-cardbox">
-                                    <div class="card-img">
-                                        <img src="./assets/img/calculadora-img.png" alt="Imagem do projeto Calculadora">
-                                    </div>
-                                </div>
-                                <div class="desc-cardbox">
-                                    <h2>Calculadora</h2>
-                                    <div class="border-transparent"></div>
-                                    <p>Projeto onde foram utilizadas as tecnologias HTML, CSS e JavaScript.</p>
-                                    <a class="btn-swiper" href="https://github.com/magrogabriel/Projeto_Calculadora">Saiba mais</a>
-                                    <a class="link-live" href="https://magrogabriel.github.io/Projeto_Calculadora/"><i class="bi bi-link"></i> Live Preview</a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img-cardbox">
-                                    <div class="card-img">
-                                        <img src="./assets/img/destinos-img.png" alt="Imagem do projeto Formulário de destinos">
-                                    </div>
-                                </div>
-                                <div class="desc-cardbox">
-                                    <h2>Formulário de destinos</h2>
-                                    <div class="border-transparent"></div>
-                                    <p>Projeto onde foram utilizadas as tecnologias HTML, CSS, JavaScript, ReactJs e duas APIs. </p> 
-                                    <a class="btn-swiper"href="https://github.com/magrogabriel/form-destinos">Saiba mais</a>
-                                    <a class="link-live" href="https://magrogabriel.github.io/form-destinos/"><i class="bi bi-link"></i> Live Preview</a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img-cardbox">
-                                    <div class="card-img">
-                                        <img src="./assets/img/jobfinder-img.png" alt="Imagem do projeto JobFinder">
-                                    </div>
-                                </div>
-                                <div class="desc-cardbox">
-                                    <h2>Job Finder</h2>
-                                    <div class="border-transparent"></div>
-                                    <p>Projeto onde foram utilizadas as tecnologias HTML, CSS, JavaScript, NodeJs e SQLite.</p>
-                                    <a class="btn-swiper" href="https://github.com/magrogabriel/Job-Finder">Saiba mais</a>
-                                    <!-- <a class="link-live" href=""><i class="bi bi-link"></i> Live Preview</a> -->
-                                </div>
-                            </div>
-                            
+
+            <div class="projects-all hidden2">
+                <div class="projects-card">
+                    <div class="project-img">
+                        <img src="./assets/img/proj_calc.svg" alt="Imagem do projeto calculadora">
+                    </div>
+                    <div class="project-desc">
+                        <h2>Calculadora</h2>
+                        <p>Projeto onde foram utilizadas as tecnologias HTML, CSS e JavaScript.</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://github.com/magrogabriel/Projeto_Calculadora">Ver código</a>
+                            <a target="_blank" href="https://magrogabriel.github.io/Projeto_Calculadora/"><i class="bi bi-link"></i> Live
+                                Preview</a>
                         </div>
                     </div>
-                    <div class="swiper-button-next swiper-navBtn"></div>
-                    <div class="swiper-button-prev swiper-navBtn"></div>
-                    <div class="swiper-pagination"></div>
-                    
+                </div>
+                <div class="projects-card">
+                    <div class="project-img">
+                        <img src="./assets/img/proj_velha.svg" alt="Imagem do projeto jogo da velha">
+                    </div>
+                    <div class="project-desc">
+                        <h2>Jogo da Velha</h2>
+                        <p>Projeto onde foram utilizadas as tecnologias HTML, CSS e JavaScript.</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://github.com/magrogabriel/Jogo-da-Velha">Ver código</a>
+                            <a target="_blank" href="https://magrogabriel.github.io/Jogo-da-Velha/"><i class="bi bi-link"></i> Live
+                                Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div class="project-img">
+                        <img src="./assets/img/proj_form.svg" alt="Imagem do projeto formulário de destinos">
+                    </div>
+                    <div class="project-desc">
+                        <h2>Formulário de destinos</h2>
+                        <p>Projeto onde foram utilizadas as tecnologias HTML, CSS, JavaScript, ReactJs e duas APIs. </p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://github.com/magrogabriel/form-destinos">Ver código</a>
+                            <a target="_blank" href="https://magrogabriel.github.io/form-destinos/"><i class="bi bi-link"></i> Live
+                                Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div class="project-img">
+                        <img src="./assets/img/proj_job.svg" alt="Imagem do projeto job finder">
+                    </div>
+                    <div class="project-desc">
+                        <h2>Job Finder</h2>
+                        <p>Projeto onde foram utilizadas as tecnologias HTML, CSS, JavaScript, NodeJs e SQLite.</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://github.com/magrogabriel/Job-Finder">Ver código</a>
+                            <!-- <a href="https://magrogabriel.github.io/form-destinos/"><i class="bi bi-link"></i> Live
+                                Preview</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div class="project-img">
+                        <img src="./assets/img/proj_todo.svg" alt="Imagem do projeto to-do list">
+                    </div>
+                    <div class="project-desc">
+                        <h2>To-do List</h2>
+                        <p>Projeto onde foram utilizadas as tecnologias HTML, CSS, JavaScript, ReactJs, NodeJs, Express e MondoDB</p>
+                        <div class="project-links">
+                            <a target="_blank" href="https://www.linkedin.com/posts/gabriel-magro_frontend-backend-javascript-activity-7025145996208672768-aG1m?utm_source=share&utm_medium=member_desktop">Ver código</a>
+                            <a target="_blank" href="https://todolist-app-x02j.onrender.com/"><i class="bi bi-link"></i> Live
+                                Preview</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-        </div>
-        
-    </section>
 
-    <section id="contact">
-        <div class="contact-content">
-                <h2 class="hidden1">Fale comigo</h2>
-                <img class="hidden2"src="./assets/img/juicy-envelope.gif" alt="">
-                <div class="contact-boxes hidden4">
-                    <div id="linkedin-box" class="contact-box">
-                        <i id="icon-linkedin" class="bi bi-linkedin"></i>
-                        <a href="">LinkedIn</a>
-                    </div>
-                    <div id="envelope-box"class="contact-box">
-                        <i id="icon-envelope"class="bi bi-envelope"></i>
-                        <p>gabrielmagro.94@gmail.com</p>
-                    </div>
-                    <div id="github-box" class="contact-box">
-                        <i id="icon-github" class="bi bi-github"></i>
-                        <a href="">GitHub</a>
-                    </div>
-                </div> 
-        </div>
-    </section>
 
-    <footer>
-        <p>Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
-    </footer>
+        </div>
+
+    </section>
 
     
+    <section id="contact">
+        <div class="contact-content hidden1">
+            <h2>Fale comigo</h2>
+            <div class="contact-boxes">
+                <div id="linkedin-box" class="contact-box">
+                    <i id="icon-linkedin" class="bi bi-linkedin"></i>
+                    <a target="_blank" href="https://www.linkedin.com/in/gabriel-magro/">LinkedIn</a>
+                </div>
+                <div id="envelope-box" class="contact-box">
+                    <i id="icon-envelope" class="bi bi-envelope"></i>
+                    <p>gabrielmagro.94@gmail.com</p>
+                </div>
+                <div id="github-box" class="contact-box">
+                    <i id="icon-github" class="bi bi-github"></i>
+                    <a target="_blank" href="https://github.com/magrogabriel">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-img hidden2">
+            <img src="./assets/img/elemento2.svg" alt="Ilustração contato">
+        </div>
+    </section>
+
+
     <script src="./assets/js/script.js"></script>
 </body>
 
