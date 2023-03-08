@@ -113,14 +113,11 @@ body {
 #top {
     padding-bottom: 120px;
 }
-#bgzao {
+#bg-container {
     width: 100%;
     height: 100%;
-    /* height: 100%; */
-    /* background-image: url("../img/BG_WAVY.svg"); */
     background-repeat: no-repeat;
     background-position: bottom;
-    /* background-size: cover; */
 }
 
 .top-container {
@@ -538,157 +535,6 @@ body {
     animation: button-animation-rev 0.65s ease-out forwards;
 }
 
-
-
-.swiper {
-    margin-right: 20px !important;
-    width: 70%;
-    margin-top: 100px;
-    margin: 0 auto !important;
-    padding: 20px 0 !important;
-    background-color: #fff;
-    box-shadow: 5px 7px 15px -3px rgba(0,0,0,0.1);
-    border-radius: 25px;
-    background: rgba(255, 255, 255, 0.13);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.4px);
-    -webkit-backdrop-filter: blur(4.4px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.slide-content {
-    height: 100%;
-    padding: 0 20px; 
-    margin: 0 40px;
-    overflow: hidden;
-    border-radius: 25px;
-}
-
-.swiper .swiper-navBtn::before,
-.swiper .swiper-navBtn::after  {
-    color: #F6985D;
-    font-size: 30px;
-    transition: color 0.3s ease;
-}
-
-.swiper .swiper-navBtn:hover {
-    color:#fff;
-}
-
-
-.swiper .swiper-pagination-bullet {
-    background-color: #e7c4ae;
-    opacity: 1;
-}
-
-.swiper .swiper-pagination-bullet-active {
-    background-color:#F6985D;
-}
-
-.swiper-slide {
-    border-radius: 15px;
-    width: 100%;
-    margin-bottom: 20px;
-    position: relative;
-    
-}
-
-.img-cardbox {
-    width: 100%;
-    /* height: 20%; */
-    background-color: #F3F3F3;
-    border-radius: 6px;
-}
-
-.card-img {
-    width: 100%;
-    height: 100%;
-    border: 15px solid #F3F3F3;
-    border-radius: 6px;
-}
-.card-img img{
-    border-radius: 6px 6px 6px 6px;
-    width: 100%;
-}
-
-.desc-cardbox {
-    position: relative;
-    background-color: #F3F3F3;
-    width: 100%;
-    height: 260px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    border-radius: 0 0 6px 6px;
-
-}
-
-.desc-cardbox h2 {
-    font-size: 15px;
-    padding-bottom: 10px;
-    margin-left: 15px;
-    color:#3a3338;
-}
-
-.desc-cardbox .border-transparent {
-    margin: 0 20px 10px 20px;
-    border-bottom: 1px solid rgba(0,0,0, 0.10);
-
-}
-.desc-cardbox p {
-    font-size: 13px;
-    padding: 0 15px 0px 15px;
-    margin-bottom: 20px;
-    color:#685B65;
-}
-
-
-.desc-cardbox a i{
-    color: #fc8237;
-}
-
-.desc-cardbox .link-live{
-    text-align: center;
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    bottom: 10px;
-    text-decoration: none;
-    color: #000;
-    font-size: 13px;
-}
-.desc-cardbox .btn-swiper {
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 35px;
-    margin: 0 auto;
-    width: 50%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color:#fff;
-    text-align: center;
-    text-decoration: none;
-    background-color: #F6985D;
-    border-radius: 20px;
-    border: none;
-    padding: 6px 20px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.desc-cardbox .btn-swiper:hover {
-    background-color:#fc8237;
-    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.11);
-}
-
-.desc-cardbox button:hover {
-    background-color: #c243d6;
-}
-
 #contact {
     margin: 0 auto;
     display: flex;
@@ -807,47 +653,13 @@ body {
     width: 80%;
 }
 
-footer {
-    margin-top: 10px;
-}
-footer p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #685B65;
-    padding-left: 5%;
-}
-footer p a {
-    
-    color:#F6985D;
-    
-}
 
 .hidden1, .hidden2, .hidden3, .hidden4 {
     visibility: hidden;
 }
+
 @media (max-width: 1200px) {
 
-    .title-topcontainer {
-        margin-left: 10px;
-    }
-    .title-topcontainer h1 {
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 1.1em;
-        margin-bottom: 20px;
-        color: #324b4e;
-        
-    }
-    
-    .title-topcontainer p {
-        font-family: 'Poppins', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        color: #273b3d;
-        margin-bottom: 20px;
-        position: relative;
-    }
 
     #skills {
         width: 80%;
@@ -1180,9 +992,6 @@ footer p a {
     #header {
         gap: 100px;
     }
-
-    
-
 
     #return {
 
